@@ -1,0 +1,476 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #89a2bb;
+    color: #333;
+    text-align: center;
+}
+
+header {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 2em;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+nav {
+    background-color: #61c0bf;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section {
+    background-color: #cfcfcf;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 40px;
+}
+
+h2 {
+    color: #4285f4;
+}
+
+p {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff34;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+}
+
+.dark-mode {
+    background-color: #2d3137;
+    color: #000000;
+}
+
+.dark-mode header {
+    background-color: #1a1a1a;
+}
+
+.dark-mode nav {
+    background-color: #303030;
+}
+
+.dark-mode section {
+    background-color: #363636;
+    color: #fff;
+}
+
+.dark-mode table {
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #61c0bf;
+    color: #000000;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+    background-color: #1e3b6d;
+}
+
+#relato-video {
+    text-align: center;
+}
+
+#relato-video video {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#pricing {
+    padding: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.contact-image {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+#bio {
+    text-align: center;
+    padding: 20px;
+}
+
+.relato {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.relato img {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.read-more-link {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #256d1e;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #1e4873;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #1e3b6d;
+}
+
+footer {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.space-image {
+    max-width: 256px;
+    max-height: 256px;
+}
+
+.contact {
+    background-color: #1e3b6d;
+    text-align: center;
+    color: #ffffff;
+    padding: 1em;
+}
+
+.signup {
+    background-color: #61c0bf;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.signup h2 {
+    margin-bottom: 20px;
+}
+
+.signup p {
+    margin-bottom: 30px;
+}
+
+th,
+td {
+    border: 1px solid #4169e1;
+    padding: 10px;
+    text-align: left;
+}
+
+.download-bar {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.download-link {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background-color: #e0e0e0;
+}
+
+.read-more-link {
+    text-decoration: none;
+    color: #256d1e;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+    transition: border-color 0.3s ease;
+}
+
+.read-more-link:hover {
+    border-color: #256d1e;
+}
+
+.testimonials-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #1e3b6d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.testimonial h3 {
+    margin-top: 1rem;
+    font-family: 'Fraunces', serif;
+    font-size: 20px;
+}
+
+.testimonial p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+#blog {
+    text-align: center;
+    padding: 20px;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blog-post {
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.blog-post img {
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .blog-post {
+        width: 100%;
+    }
+}
+
+.dark-mode body {
+    background-color: #333;
+    color: #000000;
+}
+
+.dark-mode .relato {
+    background-color: #fff;
+    color: #000000;
+}
+
+.dark-mode #blog {
+    background-color: #333;
+}
+
+.relato img {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 60px;
+}
+
+.dark-mode .read-more-link {
+    color: #256d1e;
+}
+
+.dark-mode .blog-container {
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .relato {
+        width: 45%; /* ou o valor desejado */
+        margin: 0 auto; /* centraliza o elemento */
+    }
+
+    .relato img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #relato-video video {
+        width: 45%;
+        max-width: 45%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    #pricing {
+        padding: 10px;
+    }
+
+    #pricing table {
+        width: 45%;
+        max-width: 45%;
+    }
+}
+
+
+/* Add this CSS to your existing style.css */
+
+/* Responsive styling for pricing table */
+@media only screen and (max-width: 600px) {
+    table {
+        width: 100%;
+        margin: 10px 0; /* Add margin for better spacing */
+    }
+
+    th, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center; /* Center-align content */
+    }
+
+    td:before {
+        content: attr(data-label);
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px; /* Add space between label and data */
+        font-size: 16px; /* Increase font size for labels */
+    }
+
+    td:last-child {
+        margin-bottom: 0;
+    }
+
+    /* Additional styling for specific headings on small screens */
+    .relato h2 {
+        font-size: 18px; /* Increase font size for specific headings */
+        font-weight: bold;
+        margin-bottom: 8px; /* Add some space below specific headings */
+    }
+}
+
+/* Responsive styling for video */
+@media only screen and (max-width: 600px) {
+    iframe {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.dark-mode-button {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none; /* Remove border if not needed */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    cursor: pointer;
+}
+
+
+
+.dark-mode #services {
+    background-color: #363636;
+    color: #fff;
+}
+
+.dark-mode #services h2 {
+    color: #4285f4; /* Cor do título */
+}
+
+.dark-mode #services p {
+    color: #ccc; /* Cor do texto */
+}
+
+.dark-mode table {
+    background-color: #363636;
+    color: #fff;
+}
+
+.dark-mode table th,
+.dark-mode table td {
+    border: 1px solid #555; /* Cor da borda da tabela */
+    color: #fff;
+}
+
+.dark-mode .dark-mode-button {
+    background-color: #333;
+    color: #fff;
+}
+
+.dark-mode .cta-button {
+    background-color: #1e4873;
+    color: #fff;
+}
+.dark-mode-button:hover {
+    background-color: #555; /* Cor de fundo mais escura durante o hover */
+    color: #fff; /* Cor do texto durante o hover */
+}
